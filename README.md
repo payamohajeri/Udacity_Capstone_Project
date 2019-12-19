@@ -17,19 +17,13 @@ Following provided datasets from Burn CPU Burn competitions on Kaggle will be us
 https://www.kaggle.com/c/model-t4/data
 
 ### Solution Statement
+The solution is to collect the system related metrics like the usage of memory, I/O, network traffic and train a model which can link the recorded data to the CPU utilisation and can provide the an estimation in case the system behaviour is similar.
 
 ### Benchmark Model
+Information are all provided on https://www.kaggle.com/c/model-t4/data
 
 ### Evaluation Metrics
+Information are all provided on https://www.kaggle.com/c/model-t4/data
 
 ### Project Design
-
------------
-
-**Before submitting your proposal, ask yourself. . .**
-
-- Does the proposal you have written follow a well-organized structure similar to that of the project template?
-- Is each section (particularly **Solution Statement** and **Project Design**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
-- Would the intended audience of your project be able to understand your proposal?
-- Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
-- Are all the resources used for this project correctly cited and referenced?
+I intend to use what I have learned so far on this project, I will go through the discussions on Kaggle and implement a model on Jupiter notebook while deploying it on AWS. I'm interested to submit the results on Kaggle and compare / improve them based on the available rankings as well.
