@@ -27,3 +27,16 @@ Information are all provided on https://www.kaggle.com/c/model-t4/data
 
 ### Project Design
 I intend to use what I have learned so far on this project, I will go through the discussions on Kaggle and implement a model on Jupiter notebook while deploying it on AWS. I'm interested to submit the results on Kaggle and compare / improve them based on the available rankings as well.
+
+
+------------
+## Links:
+- Suggested: in your final report, you must explain in more detail your dataset. Here is a complete article on various techniques of the data exploration process: https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/
+
+- Please check the links below to learn more about the different types of Machine Learning Algorithms:
+    - https://towardsdatascience.com/types-of-machine-learning-algorithms-you-should-know-953a08248861
+    - https://www.sas.com/en_gb/insights/articles/analytics/machine-learning-algorithms.html
+
+- The metric is clearly defined. Suggested:
+    - Here an interesting reference about Choosing the Right Metric for Evaluating Machine Learning Models: https://www.kdnuggets.com/2018/04/right-metric-evaluating-machine-learning-models-1.html
+    - And here an article that discusses about What metrics should be used for evaluating a model on an imbalanced data set: https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba
