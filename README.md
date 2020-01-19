@@ -64,3 +64,6 @@ I intend to use what I have learned so far on this project, I will go through th
 - The metric is clearly defined. Suggested:
     - Here an interesting reference about Choosing the Right Metric for Evaluating Machine Learning Models: https://www.kdnuggets.com/2018/04/right-metric-evaluating-machine-learning-models-1.html
     - And here an article that discusses about What metrics should be used for evaluating a model on an imbalanced data set: https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba
+
+---------
+Thanks to [alpesis-ai](https://github.com/alpesis-ai) which helped me to understand this problem better.
