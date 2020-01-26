@@ -65,5 +65,11 @@ I intend to use what I have learned so far on this project, I will go through th
     - Here an interesting reference about Choosing the Right Metric for Evaluating Machine Learning Models: https://www.kdnuggets.com/2018/04/right-metric-evaluating-machine-learning-models-1.html
     - And here an article that discusses about What metrics should be used for evaluating a model on an imbalanced data set: https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba
 
+- From the model training implementation I do not see any hyperparamter set or tuned to evaluate performance of model. Both approaches are used with default parameters. Would suggest to try different hyperparamter settings for both models, probably you can go with GridSearchCV approach to come up with optimized parameter selection. Then use best parameters to build final model and evaluate scores.
+
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+
+To validate robustness of model would suggest to try cross validation approach. Try randomly splitting your data into train and test datasets for say n number of iterations and evaluate the score on each iteration. If the scores are almost similar or within narrow range then model is robust enough to any variation in data.
+
 ---------
 Thanks to [alpesis-ai](https://github.com/alpesis-ai) which helped me to understand this problem better.
